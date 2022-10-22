@@ -9,17 +9,16 @@ export default function Home() {
     <>
       <Head>
         <title>Toolhub record management</title>
-        <meta name="keywords" content="ninjas"/>
+        <meta name="keywords" content="toolhub"/>
       </Head>
       <div>
-        <h1 className={styles.title}>Toolhub Records Management</h1>
+        <h1 className='title'>Toolhub Records Management</h1>
         <p className={`text-center ${styles.text}`}>The Wikipedia snippet below is not backed by a reliable source. Can you find one?</p>
         <p className={`text-center ${styles.text}`}>Click <b>I got this!</b> to go to Wikipedia and fix the snippet, or <b>Next!</b> to see another one. Good luck!</p>
         <div className='m-6'>
           <SearchBar />
         </div>
         <BlockQuote/>
-        {/* <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p> */}
         <div className="flex flex-row justify-center">
           <div className="basis-1/4">
             <Link href="#">

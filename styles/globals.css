@@ -62,6 +62,12 @@ footer {
   min-height: 140px;
   max-height: 140px;
 }
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 .ch-snippet {
   padding-left: 45px;
   overflow-y: scroll;
