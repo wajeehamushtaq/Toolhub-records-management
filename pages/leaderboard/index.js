@@ -63,7 +63,7 @@ const Leaderboard = ({ topUsers }) => {
   return (
     <div>
       <h1 className='title'>Toolhub Leaderboard</h1>
-      <h4>These are users that fixed the most snippets through Citation Hunt in the past 30 days. Well done!</h4>
+      <h4>These are users that fixed the most snippets through Toolhub in the past 30 days. Well done!</h4>
       <div className='p-2 m-4 flex flex-row justify-between'>
             <div className='basis-1/4'>
                 <h3 className='font-bold'>User</h3>
