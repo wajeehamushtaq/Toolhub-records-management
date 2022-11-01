@@ -6,7 +6,7 @@ const BlockQuote = () => {
     </p>
       <div class="row justify-content-center no-gutters">
         <blockquote id="snippet" class="col-10">
-          <div id="quotation">"</div>
+          <div id="quotation">&quot;</div>
           <div class="ch-snippet">
             <p>
               To address this growing market segment,
