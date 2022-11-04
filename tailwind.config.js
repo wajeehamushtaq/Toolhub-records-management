@@ -9,7 +9,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
-      'primary': '#347BFF',
+      'primary': '#3366cc',
       'green': '#00AF89'
     },
   },
